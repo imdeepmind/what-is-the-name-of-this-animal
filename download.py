@@ -17,3 +17,7 @@ for animal in animals:
                 urllib.request.urlretrieve(images[i], 'data/images/{}/{}.jpg'.format(animal,i))
             except Exception as ex:
                 print('--Something went wrong with the {} image number {} : {}--'.format(animal,i,str(ex)))
+                
+                
+# After downloading the data, we need to manually clean the data
+                
