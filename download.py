@@ -20,4 +20,3 @@ for animal in animals:
                 
                 
 # After downloading the data, we need to manually clean the data
-                

@@ -13,3 +13,5 @@ for animal in animals:
         if img is not None:
             img = cv2.resize(img, (224,224))
             cv2.imwrite(path, img)
+        else:
+            os.remove(path)
